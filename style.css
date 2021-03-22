@@ -1,0 +1,61 @@
+body {
+    font-size: 24px;
+    font-family: courier, arial, helvetica;
+    word-spacing: -10px;
+    display: block;
+    margin: 0px;
+    word-wrap: break-word;
+    background: #BCC5C0 url(https://s0.wp.com/wp-content/themes/pub/greyzed/images/bg.jpg) top center no-repeat;
+}
+
+#page {
+    width: 1054px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+}
+/*header_menu*/
+ul{
+	list-style: none;
+	margin: 10px 0px 10px 200px;
+}
+li{
+	float: left;
+	color: white;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+/*header_avt*/
+#avt_img {
+    border-radius: 50%;
+    width: 250px;
+    margin-top: 10px;
+}
+
+div>#header_avt {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+div>#title {
+    margin: 150px 0px 0px 50px;
+    font-size: 70px;
+}
+
+div>a,span{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+a:hover{
+	color: red;
+}
+span{
+	margin-left: 50px;
+	color: black;
+}
